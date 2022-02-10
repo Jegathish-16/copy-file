@@ -24,6 +24,9 @@ The content in the original file will be copied in the new file
 The END.
 ## PROGRAM:
 ```
+#Program to copy the contents from one file to another file
+#Developed by: Jegathish s
+#Register number: 212221230041
 with open("test1.txt","r") as fp:
     data=fp.read()
 with open("test2.txt","w") as f2:
